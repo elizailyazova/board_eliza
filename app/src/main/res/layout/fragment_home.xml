@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/youth"
+    android:padding="15dp"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/participants"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="12dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#2D8F4E"
+        android:text="Amount of Participants"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Category of Activity"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#2D8F4E"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#2D8F4E"
+        android:text="Name of Activity"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="12dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#2D8F4E"
+        android:text="Price"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="12dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#2D8F4E"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Link"
+        android:gravity="center_horizontal"/>
+
+    <ImageButton
+        android:id="@+id/zoomBtn"
+        android:layout_width="123dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/material_on_surface_stroke"
+        android:scaleType="centerInside"
+        android:src="@drawable/zoom"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="100dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2D8F4E"
+        android:text="What Can I Do Today?" />
+
+</LinearLayout>
